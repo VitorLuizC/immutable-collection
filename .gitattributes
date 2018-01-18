@@ -1,0 +1,5 @@
+# Enforce Unix line-ending.
+* text=auto eol=lf
+
+# Ignore package lockfile diff.
+package-lock.json -diff

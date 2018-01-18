@@ -1,0 +1,28 @@
+{
+  "name": "immutable-collection",
+  "version": "0.0.0",
+  "description": "Immutable collection library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorLuizC/immutable-collection.git"
+  },
+  "keywords": [
+    "immutable-collection",
+    "immutable",
+    "collection"
+  ],
+  "author": {
+    "url": "https://vitorluizc.github.io/",
+    "name": "Vitor Cavalcanti",
+    "email": "vitorluizc@outlook.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VitorLuizC/immutable-collection/issues"
+  },
+  "homepage": "https://github.com/VitorLuizC/immutable-collection#readme"
+}
