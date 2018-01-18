@@ -2,9 +2,16 @@
   "name": "immutable-collection",
   "version": "0.0.0",
   "description": "Immutable collection library.",
-  "main": "index.js",
+  "cnd": "dist/immutable-collection.js",
+  "main": "dist/immutable-collection.cjs.js",
+  "unpkg": "dist/immutable-collection.js",
+  "module": "dist/immutable-collection.m.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bili src/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/VitorLuizC/immutable-collection/issues"
   },
-  "homepage": "https://github.com/VitorLuizC/immutable-collection#readme"
+  "homepage": "https://github.com/VitorLuizC/immutable-collection#readme",
+  "devDependencies": {
+    "bili": "^1.6.3"
+  }
 }
