@@ -1,38 +1,38 @@
 {
-  "name": "immutable-collection",
-  "version": "0.0.0",
-  "description": "Immutable collection library.",
-  "cnd": "dist/immutable-collection.js",
-  "main": "dist/immutable-collection.cjs.js",
-  "unpkg": "dist/immutable-collection.js",
-  "module": "dist/immutable-collection.m.js",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "bili src/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VitorLuizC/immutable-collection.git"
-  },
-  "keywords": [
-    "immutable-collection",
-    "immutable",
-    "collection"
-  ],
-  "author": {
-    "url": "https://vitorluizc.github.io/",
-    "name": "Vitor Cavalcanti",
-    "email": "vitorluizc@outlook.com"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/VitorLuizC/immutable-collection/issues"
-  },
-  "homepage": "https://github.com/VitorLuizC/immutable-collection#readme",
-  "devDependencies": {
-    "bili": "^1.6.3"
-  }
+	"name": "immutable-collection",
+	"version": "0.0.0",
+	"description": "Immutable collection library.",
+	"cnd": "dist/immutable-collection.js",
+	"main": "dist/immutable-collection.cjs.js",
+	"unpkg": "dist/immutable-collection.js",
+	"module": "dist/immutable-collection.m.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "bili src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/VitorLuizC/immutable-collection.git"
+	},
+	"keywords": [
+		"immutable-collection",
+		"immutable",
+		"collection"
+	],
+	"author": {
+		"url": "https://vitorluizc.github.io/",
+		"name": "Vitor Cavalcanti",
+		"email": "vitorluizc@outlook.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/VitorLuizC/immutable-collection/issues"
+	},
+	"homepage": "https://github.com/VitorLuizC/immutable-collection#readme",
+	"devDependencies": {
+		"bili": "^1.6.3"
+	}
 }

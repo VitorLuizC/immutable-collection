@@ -1,3 +1,6 @@
+# Finder settings (Mac).
+.DS_Store
+
 # Node.js modules.
 node_modules/
 
