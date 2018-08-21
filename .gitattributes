@@ -1,5 +1,6 @@
 # Enforce Unix line-ending.
 * text=auto eol=lf
 
-# Ignore package lockfile diff.
-package-lock.json -diff
+# Ignore differences on Yarn's lockfile.
+# Since version 1.0, Yarn automatically handle merge conflicts.
+yarn.lock -diff

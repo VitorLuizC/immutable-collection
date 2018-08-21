@@ -7,3 +7,7 @@ node_modules/
 
 # Distribution sources.
 dist/
+
+# NPM's lockfile.
+# I'm using Yarn instead, and it has it's own lockfile (yarn.lock).
+package-lock.json
