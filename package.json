@@ -2,16 +2,22 @@
 	"name": "immutable-collection",
 	"version": "0.0.0",
 	"description": "Immutable collection library.",
-	"cnd": "dist/immutable-collection.js",
-	"main": "dist/immutable-collection.cjs.js",
-	"unpkg": "dist/immutable-collection.js",
-	"module": "dist/immutable-collection.m.js",
+	"cdn": "dist/immutable-collection.js",
+  "main": "dist/immutable-collection.cjs.js",
+  "types": "index.d.ts",
+  "unpkg": "dist/immutable-collection.js",
+  "module": "dist/immutable-collection.es.js",
+  "jsdelivr": "dist/immutable-collection.js",
+  "umd:main": "dist/immutable-collection.js",
 	"files": [
-		"dist"
+		"dist/",
+		"index.d.ts"
 	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "bili src/index.js"
+		"build:bundle": "bili index.js --formats es,cjs,umd --js buble --banner",
+		"build:transpile": "tsc index.ts --target es2015 --declaration",
+		"build": "yarn build:transpile && yarn build:bundle"
 	},
 	"repository": {
 		"type": "git",
@@ -33,6 +39,7 @@
 	},
 	"homepage": "https://github.com/VitorLuizC/immutable-collection#readme",
 	"devDependencies": {
-		"bili": "^1.6.3"
+		"bili": "^3.1.2",
+		"typescript": "^3.0.1"
 	}
 }

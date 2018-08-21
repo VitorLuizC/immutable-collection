@@ -1,16 +1,18 @@
 # Finder settings (Mac).
 .DS_Store
 
-# Node.js modules.
-node_modules/
-
 # Log files.
 *.log
 *.log.*
 
-# Distribution sources.
-dist/
+# Node.js modules.
+node_modules/
 
 # NPM's lockfile.
 # I'm using Yarn instead, and it has it's own lockfile (yarn.lock).
 package-lock.json
+
+# Generated sources & types.
+dist/
+index.js
+index.d.ts
