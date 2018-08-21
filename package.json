@@ -15,7 +15,7 @@
 	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build:bundle": "bili index.js --formats es,cjs,umd --js buble --banner",
+		"build:bundle": "bili index.js --formats es,cjs,umd --js babel --banner",
 		"build:transpile": "tsc index.ts --target es2015 --declaration",
 		"build": "yarn build:transpile && yarn build:bundle"
 	},
